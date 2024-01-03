@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    background-color: cyan;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.main > div > h1{
+    margin-left: 20px;
+    
+
+}
+.bb{
+    font-size: 35px;
+}
+.aa{
+    background-color: rgb(199, 255, 43);
+    border-radius: 5px;
+}
+
+.main > div > ul{
+    list-style: none;
+    margin: 10px 10px;
+    padding: 0px 0px;
+}
+.main > div > ul > li > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-right: 1px solid red ;
+    padding: 12px 10px;
+    transition: 1s;
+    
+    
+}
+.main > div > ul > li:first-child > a{
+    border-left: 1px solid red;
+}
+.main > div > ul{
+    display: flex;
+    margin-right: 50px;
+    
+
+}
+.main > div > ul > li > ul{
+    opacity: 0;
+    text-align: center;
+    margin-top: 15px;
+    width: 150px;
+    position: absolute;
+    transition: 1s;
+    transform: scaleZ(0);
+    
+    
+       
+}
+
+
+.main > div > ul > li:hover > a{
+    background-color: rgb(246, 123, 187);
+}
+
+
+.ulist > li > ul{
+    list-style: none;
+    background-color: burlywood;
+    
+    
+
+}
+.ulist > li > ul > li > a{
+    text-decoration: none;
+    font-size: 18px;
+
+    
+}
+.main > div > ul > li > ul > li{
+    margin: 20px 20px;
+    border-bottom: 1px solid white;
+
+}
+.main > div > ul > li:hover > ul{
+    opacity: 1;
+    transform: scaleZ(1);
+
+}
+.main > div > ul > li > ul > li:hover{
+    background-color: cornsilk;
+
+}
